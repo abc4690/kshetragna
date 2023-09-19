@@ -536,3 +536,69 @@ h6,
     max-width: 75px; /* Adjust the logo's maximum width as needed */
     margin-left: 10px; /* Adjust the spacing between the text and logo */
   }
+
+  /* product design */
+  .products_details .section-header h2 {
+    color: var(--primary);
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.text-center {
+    text-align: center !important;
+}
+.content {
+    text-align: justify;
+}
+.products_details .download-btn .fa {
+    background: rgba(0,0,0,.1);
+    padding: 12px 14px;
+    margin-right: 14px;
+}
+.fa-check-circle:before {
+    content: "\f058";
+}
+.products_details .iconlist li {
+    padding: 10px 0;
+}
+.products_details .iconlist .fa {
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+.products_details .download-btn a {
+    background: #f9f9f9;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    padding: 0 14px 0 0;
+    display: inline-block;
+    font-size: 16px;
+    color: #222;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: auto;
+}
+.section-header h2 {
+    font-family: Poppins,sans-serif;
+    color: #333;
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.loader-container {
+    position: relative;
+    display: inline-block;
+  }
+  .loader-logo {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  

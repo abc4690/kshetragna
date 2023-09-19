@@ -1,0 +1,44 @@
+/********** Template CSS **********/
+:root {
+    --primary: #348E38;
+    --secondary: #525368;
+    --light: #E8F5E9;
+    --dark: #0F4229;
+}
+@media (min-width: 1200px){
+h1, .h1 {
+    font-size: 2.5rem;
+}}
+
+@media (min-width: 1200px){
+.container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1140px;
+}}
+
+@media (min-width: 992px){
+.mt-2 {
+    margin-top: 2rem!important;
+}}
+@media (min-width: 992px){
+.col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333%;
+}}
+@media (min-width: 1200px){
+.col-xl {
+    flex: 1 0 0%;
+}}
+
+.products .list-prod {
+    border: 1px solid #ccc;
+    min-height: 450px;
+    padding: 1rem;
+    transition: all .5s ease;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 100%;
+}
